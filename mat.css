@@ -1,0 +1,31 @@
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+
+}
+main{
+    flex: 1 0 auto;
+}
+
+.foto{
+    width: 150px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 9px  black;
+}
+
+img{
+    height: 220px;
+}
+.titulocurso{
+ background: rgba(1,1,1,.5);
+ 
+} 
