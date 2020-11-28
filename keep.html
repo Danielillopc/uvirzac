@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"  media="screen,projection"/>
+</head>
+<style>
+html{
+    scroll-behavior: smooth;
+}    
+    body {
+      padding-left: 300px;
+    }
+
+@media (max-width : 992px) {
+      body {
+        padding-left: 0px;
+      }
+    }
+</style>
+<body>
+    <a name="top"></a>
+    <nav>
+        <div class="nav-wrapper  light-blue  darken-4"> 
+            <div class="container">            
+            <a href="#" class="brand-logo center"> Tutorial Express de Google Keep</a>
+            <a href="#" class="sidenav-trigger" data-target="slide_out"><i class="material-icons">menu</i></a>        
+            <ul class="right hide">
+                <li class="active"><a href="">Parte 1</a></li>
+                <li ><a href="">Parte 2</a></li>
+                <li ><a href="">Parte 3</a></li>
+                <li ><a href="">Parte 4</a></li>
+                
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <ul class="sidenav sidenav-fixed" id="slide_out">
+        <li> 
+            <div class="user-view">
+                <div class="background">
+                  <img src="/img/keep.PNG" style="width: 100%;">
+                </div>
+                <a href="#user"><img class="circle pulse" src="img/yo.jpg" style="border: 1px solid white; box-shadow: 1px 1px 10px black;"></a>
+                
+                <span class="Black-text name">Dr. Daniel Rodriguez Ramos</span>
+                <span class="Black-text email">danielr@uaz.edu.mx</span>
+              </div>               
+        </li>
+        <li ><a href="#top" class="blue-text">Videotutorial</a></li>
+        
+    </ul>
+   <!--Introducción-->
+    <a name="tema1"></a>
+  <div class="container ">
+    <div class="row">
+            <div class="col s12 m12 l12">
+              <div class="card card-panel hoverable">
+                  <span class="card-title center blue-text"><h4>Videotutorial</h4></span>
+                <div class="card-content center">
+                    <span >  Bienvenidos a este en modalidad Desatendida (Pre-Grabada) en el cual aprendeemos a manejar esta indispensable herramienta gratuita de Google.</span>
+                
+                <br>
+                <br>
+                <div class="video-container z-depth-2">
+                  <iframe width="853" height="480" src="https://www.youtube.com/embed/N2v4yxFe-54" frameborder="0" allowfullscreen></iframe>
+                </div>
+              </div>
+                <div class="card-action center">
+                     <a href="#top" class="btn light-blue darken-4 ">Regresar al Inicio</a>
+                </div>
+              </div>
+            </div>
+        </div> 
+ 
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+  
+        const slide_menu=document.querySelectorAll(".sidenav");
+        M.Sidenav.init(slide_menu,{});
+    </script>
+  
+    
+</body>
+</html>
