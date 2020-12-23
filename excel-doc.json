@@ -1,0 +1,35 @@
+[
+    curso ={
+        "nombre": "Excel Aplicado a la docencia",
+        "imagen" : "img/exceldocentes.jpg",
+        "fotoprofesor":"img/yo.jpg"
+        
+    },
+    temas=["Acceder a Excel",
+        "Secciones basicas de Excel",
+        "Manejo de Libros",
+        "Manejo de Celdas",
+        "Práctica 1",
+        "Manejo de hojas en Excel",
+        "Ejercicio práctico 2",
+        "Manejo de formulas"],
+    encabezado=[
+        "Comprenderá las técnicas basicaspara ejecutar el programa Excel, así como los distintos métodos que existen para generar su fácil acceso mediante el Sistema Operativo Windows",
+        "Comprenderá cuales son y para que sirven cada una de las secciones de la interfaz del programa Excel",
+        "Comprenderá el manejo de  los archivos de Tipo Hoja de Cálculo, llamados Libros, así mismo, dominará las operaciones basicas de abrir, cerar y guardar un libro de Excel",
+        "Comprendera el manejo de renglones, columnas, celdas, tamaños de celdas, selecciones, multiselecciones y rangos en una hoja de cálculo de Excel",
+        "Realizaremos nuestra primera práctica con lo aprendido hasta el moment, creando una lista de alumnos en Excel",
+        "Comprenderá el concepto central de \"hoja de cálculo\" mediante los conceptos de libros y hojas",
+        "El aprendíz aplicará los conocimientos adquiridos en esta segunda práctica del curso",
+        "En este ultimo video aprenderá a realizar formulas a sus documentos, así como referencias datos entre hojas y aplicará formatos condicionals a sus proyectos deon hojas de cálculo "
+    ],
+    linkvideo=["https://www.youtube.com/embed/GBP_GaUiOgg",
+        "https://www.youtube.com/embed/xUiKnLo1reU",
+        "https://www.youtube.com/embed/4nGjvSxMv90",
+        "https://www.youtube.com/embed/7eDmYQplEMU",
+        "https://www.youtube.com/embed/g8ZdZpA02GU",
+        "https://www.youtube.com/embed/7U13unwIV24",
+        "https://www.youtube.com/embed/8C4zmbJ8XpM",
+        "https://www.youtube.com/embed/qY--WMrtwb0"
+    ]
+]

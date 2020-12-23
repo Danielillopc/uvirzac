@@ -1,0 +1,31 @@
+[
+    curso ={
+        "nombre": "Excel como herramienta de investigación",
+        "imagen" : "img/excelinv.png",
+        "fotoprofesor":"img/yo.jpg"
+        
+    },
+    temas=["Crear Bases de Datos",
+        "Captura de datos",
+        "Tipos de datos",
+        "Cálculos a los datos",
+        "Graficación",
+        "Vistas"],
+    encabezado=[
+        "Comprenderá como funciona una base de datos vista desde la perspectiva de una hoja de cálculo",
+        "Aprenderá el concepto de almacenamiento y captura de datos en la estructura de una base de datos",
+        "Entenderá los tipos de datos usados en excel cuando se usan las bases de datos esto es importante para realizar operación a nuestros datos",
+        "Aplicará calculos a los datos de una base de datos para obtener resultados matemáticos",
+        "Graficaremos los datos primarios tanto los datos secundarios de nuestra investigación",
+        "Crearemos vistas a los datos para una mejor comprensión "
+        
+    ],
+    linkvideo=["https://www.youtube.com/embed/zzW4ugdlyhc",
+        "https://www.youtube.com/embed/yMKZBsXVzaE",
+        "https://www.youtube.com/embed/y4GUxKCIlds",
+        "https://www.youtube.com/embed/cwvoMN39f8E",
+        "https://www.youtube.com/embed/u9jgYjHP9f8",
+        "https://www.youtube.com/embed/2Kop1nN35zU"
+       
+    ]
+]
